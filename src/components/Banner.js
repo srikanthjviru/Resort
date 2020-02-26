@@ -5,6 +5,7 @@ export default function Banner({ title, subtitle, children }) {
 		<div className="banner">
 			<h1>{title}</h1>
 			<div />
+			{/* <p>Test</p> */}
 			<p>{subtitle}</p>
 			{children}
 		</div>
