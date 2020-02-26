@@ -20,6 +20,7 @@ export default class Navbar extends Component {
 						<Link to="/">
 							<img src={logo} alt="Beach Resort" />
 						</Link>
+						<p>Edited on master branch</p>
 						<button
 							type="button"
 							className="nav-btn"
