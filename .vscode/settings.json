@@ -1,0 +1,47 @@
+{
+	// "support.type.property-name": { "foreground": "#ff0000" },
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["support.type.property-name"],
+				"settings": {
+					"foreground": "#158585"
+					// "fontStyle": "bold"
+				},
+				"scope": ["variable.paramter"],
+				"settings": {
+					"foreground": "#dd840f"
+				},
+				"scope": ["storage.type"],
+				"settings": {
+					"foreground": "#dd840f"
+				},
+				"scope": ["punctuation"],
+				"settings": {
+					"foreground": "#ec400c"
+				},
+				"scope": ["entity.name.tag"],
+				"settings": {
+					"foreground": "#cca788"
+				},
+				"scope": ["keyword.control"],
+				"settings": {
+					"foreground": "#6ec9d1"
+				},
+				"scope": ["entity.name.function"],
+				"settings": {
+					"foreground": "#bbb013"
+				}
+				// entity.name.tag { "foreground": "#af8616" }
+				// keyword.control { "foreground": "#0000ff"
+				// entity.name.tag { "foreground": "#800000" }
+				//  { "foreground": "#89DDFF" }
+				// "entity.name.tag": { "foreground": "Black" }
+			}
+		]
+	},
+	"variable.parameter": { "foreground": "Gold" },
+	"variable.language": { "fontStyle": "italic", "foreground": "Gold" },
+	"entity.name.tag": { "foreground": "Orange" },
+	"bracket-pair-colorizer-2.colors": ["Violet", "Green", "Purple"]
+}
